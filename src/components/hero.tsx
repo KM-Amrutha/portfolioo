@@ -34,7 +34,7 @@ export function Hero({ githubUrl, linkedinUrl, contactEmail }: HeroProps) {
             </div>
 
             <h1 className="relative flex items-baseline">
-              <span className="absolute right-full mr-5 whitespace-nowrap font-mono text-lg font-medium uppercase tracking-[0.2em] text-muted-foreground sm:text-xl">
+              <span className="absolute right-full top-0 bottom-0 mr-5 flex items-center whitespace-nowrap font-mono text-lg font-medium uppercase tracking-[0.2em] text-muted-foreground sm:text-xl">
                 Hi, I'm
               </span>
               <span className="bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-[3.25rem] font-semibold leading-[0.95] tracking-[-0.03em] text-transparent sm:text-7xl md:text-[6.5rem]">
