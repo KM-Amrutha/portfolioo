@@ -49,12 +49,10 @@ export function Hero({ githubUrl, linkedinUrl, contactEmail }: HeroProps) {
               I build exceptional digital experiences
             </p>
             <p className="mt-5 max-w-[46ch] text-pretty text-base leading-relaxed text-muted-foreground md:mt-7 md:text-lg">
-              I am a passionate full-stack developer, who builds{" "}
               <span className="font-medium text-foreground">
-                well-architected, scalable systems. Clean code
-              </span>{" "}
-              by default. Built with{" "}
-              <span className="font-medium text-foreground">tomorrow's tools.</span>
+                I am a passionate full-stack developer, who builds well-architected, scalable
+                systems. Clean code by default. Built with tomorrow's tools.
+              </span>
             </p>
 
             <div className="mt-7 flex flex-wrap items-center justify-start gap-3 md:mt-9">
