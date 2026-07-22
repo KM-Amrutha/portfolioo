@@ -19,14 +19,15 @@ export function About({ resumeMailto }: AboutProps) {
           </p>
           <div className="mt-10 grid grid-cols-1 gap-8 text-sm leading-relaxed text-muted-foreground sm:grid-cols-2">
             <p className="text-pretty">
-             I spent years working as an accountant, doing the same thing every day.
-              At some point I realized that wasn't enough for me.
-               I wanted something that would challenge me, something that kept changing and kept me learning.
-                That's what led me to coding, and it's why I still love it today. 
-                Now I build full-stack web apps using the MERN stack — MongoDB, Express, React, and Node.js. 
-                I care about writing code that's clean and easy to understand, not just code that works.
-                 I like thinking through how things are built, not just making them look good on the surface. 
-                 When I'm not coding, you can find me exploring emerging technologies, brainstorming new project ideas, or refining my skills through tech articles, tutorials, and hands-on experiments.
+              I spent years working as an accountant, doing the same thing every day. At some point
+              I realized that wasn't enough for me. I wanted something that would challenge me,
+              something that kept changing and kept me learning. That's what led me to coding, and
+              it's why I still love it today. Now I build full-stack web apps using the MERN stack —
+              MongoDB, Express, React, and Node.js. I care about writing code that's clean and easy
+              to understand, not just code that works. I like thinking through how things are built,
+              not just making them look good on the surface. When I'm not coding, you can find me
+              exploring emerging technologies, brainstorming new project ideas, or refining my
+              skills through tech articles, tutorials, and hands-on experiments.
             </p>
           </div>
 
