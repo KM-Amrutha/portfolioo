@@ -21,8 +21,8 @@ export function Hero({ githubUrl, linkedinUrl, contactEmail }: HeroProps) {
           className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent"
         />
 
-        <div className="relative mx-auto w-full max-w-4xl px-6">
-          <header className="mx-auto flex flex-col items-center text-center animate-rise">
+        <div className="relative mx-auto w-full max-w-4xl px-6 md:pl-16 lg:pl-24">
+          <header className="flex flex-col items-start text-left animate-rise">
             <div className="mb-5 flex items-center gap-3">
               <span className="relative flex size-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary/60 opacity-75" />
@@ -33,7 +33,7 @@ export function Hero({ githubUrl, linkedinUrl, contactEmail }: HeroProps) {
               </span>
             </div>
 
-            <h1 className="flex flex-wrap items-baseline justify-center gap-x-5 gap-y-1">
+            <h1 className="flex flex-wrap items-baseline justify-start gap-x-5 gap-y-1">
               <span className="font-mono text-lg font-medium uppercase tracking-[0.25em] text-muted-foreground sm:text-xl">
                 Hi, I'm
               </span>
@@ -45,19 +45,19 @@ export function Hero({ githubUrl, linkedinUrl, contactEmail }: HeroProps) {
             <p className="mt-5 text-xl font-bold uppercase tracking-[0.25em] text-primary md:text-3xl">
               MERN Stack Developer
             </p>
-            <p className="mt-4 text-mm font-medium uppercase tracking-[0.2em] text-primary md:text-base">
+            <p className="mt-4 text-sm font-medium uppercase tracking-[0.2em] text-primary md:text-base">
               I build exceptional digital experiences
             </p>
             <p className="mt-5 max-w-[46ch] text-pretty text-base leading-relaxed text-muted-foreground md:mt-7 md:text-lg">
-              Iam a passionate full-stack developer,who build{" "}
+              I am a passionate full-stack developer, who builds{" "}
               <span className="font-medium text-foreground">
-                Well-architected, scalable systems. Clean code
+                well-architected, scalable systems. Clean code
               </span>{" "}
-              by default.I Built with <br />
+              by default. Built with{" "}
               <span className="font-medium text-foreground">tomorrow's tools.</span>
             </p>
 
-            <div className="mt-7 flex flex-wrap items-center justify-center gap-3 md:mt-9">
+            <div className="mt-7 flex flex-wrap items-center justify-start gap-3 md:mt-9">
               <a
                 href="#projects"
                 className="group inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background shadow-[0_10px_30px_-12px_color-mix(in_oklch,var(--primary)_60%,transparent)] transition-all hover:-translate-y-0.5"
@@ -74,7 +74,7 @@ export function Hero({ githubUrl, linkedinUrl, contactEmail }: HeroProps) {
               </a>
             </div>
 
-            <div className="mt-7 flex items-center justify-center gap-3 md:mt-9">
+            <div className="mt-7 flex items-center justify-start gap-3 md:mt-9">
               <a
                 href={githubUrl}
                 target="_blank"
