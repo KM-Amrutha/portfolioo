@@ -15,17 +15,18 @@ export function About({ resumeMailto }: AboutProps) {
         </div>
         <div className="md:col-span-8">
           <p className="text-pretty text-2xl font-medium leading-snug tracking-tight text-foreground/90 md:text-3xl">
-            I approach software the way a structural engineer approaches a building — foundations
-            first, load paths second, finish last.
+            A passionate MERN STACK DEVELOPER with a creative edge
           </p>
           <div className="mt-10 grid grid-cols-1 gap-8 text-sm leading-relaxed text-muted-foreground sm:grid-cols-2">
             <p className="text-pretty">
-              MERN-stack developer building products from bootstrapped MVPs to systems serving
-              hundreds of thousands of requests a day. I care about readable domain models, honest
-              tests, and interfaces that don't lie to their callers. My favourite work sits at the
-              seam between product and infrastructure: designing boundaries, extracting services
-              when they earn their weight, and keeping the codebase a place engineers want to come
-              back to.
+             I spent years working as an accountant, doing the same thing every day.
+              At some point I realized that wasn't enough for me.
+               I wanted something that would challenge me, something that kept changing and kept me learning.
+                That's what led me to coding, and it's why I still love it today. 
+                Now I build full-stack web apps using the MERN stack — MongoDB, Express, React, and Node.js. 
+                I care about writing code that's clean and easy to understand, not just code that works.
+                 I like thinking through how things are built, not just making them look good on the surface. 
+                 When I'm not coding, you can find me exploring emerging technologies, brainstorming new project ideas, or refining my skills through tech articles, tutorials, and hands-on experiments.
             </p>
           </div>
 
