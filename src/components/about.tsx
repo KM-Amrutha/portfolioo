@@ -12,6 +12,11 @@ export function About({ resumeMailto }: AboutProps) {
           <span className="font-mono text-xs font-medium uppercase tracking-widest text-primary">
             / About
           </span>
+          <div className="mt-6 aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl border border-foreground/10 bg-foreground/5">
+            <div className="flex size-full items-center justify-center text-sm text-foreground/40">
+              Your photo here
+            </div>
+          </div>
         </div>
         <div className="md:col-span-8">
           <p className="text-pretty text-2xl font-medium leading-snug tracking-tight text-foreground/90 md:text-3xl">
