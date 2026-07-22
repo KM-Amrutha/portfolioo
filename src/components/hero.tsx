@@ -33,11 +33,11 @@ export function Hero({ githubUrl, linkedinUrl, contactEmail }: HeroProps) {
               </span>
             </div>
 
-            <h1 className="flex flex-wrap items-baseline justify-start gap-x-5 gap-y-1">
+            <h1 className="flex flex-col items-start gap-y-1">
               <span className="font-mono text-lg font-medium uppercase tracking-[0.2em] text-muted-foreground sm:text-xl">
                 Hi, I'm
               </span>
-              <span className="ml-2 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-[3.25rem] font-semibold leading-[0.95] tracking-[-0.03em] text-transparent sm:text-7xl md:text-[6.5rem]">
+              <span className="bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 bg-clip-text text-[3.25rem] font-semibold leading-[0.95] tracking-[-0.03em] text-transparent sm:text-7xl md:text-[6.5rem]">
                 Amrutha KM
               </span>
             </h1>
