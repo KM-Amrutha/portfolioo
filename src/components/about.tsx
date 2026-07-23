@@ -21,18 +21,18 @@ export function About({ resumeMailto }: AboutProps) {
           <p className="text-pretty text-2xl font-extrabold leading-snug tracking-tight text-primary md:text-3xl">
             A passionate MERN STACK DEVELOPER with a creative edge.
           </p>
-          <div className="mt-8 space-y-3 text-base leading-relaxed text-muted-foreground md:text-lg">
+          <div className="mt-8 space-y-1.5 text-sm leading-relaxed text-foreground/70 md:text-base">
             <p className="text-pretty">
-              I spent years working as an accountant, doing the same thing every day. At some point
-              I realized that wasn't enough for me — I wanted something that would challenge me,
-              something that kept changing and kept me learning. That's what led me to coding, and
-              it's why I still love it today.
+              I'm Amrutha, a full-stack developer specializing in building exceptional digital
+              experiences. With a strong foundation in the MERN stack (MongoDB, Express.js, React,
+              and Node.js), I create dynamic and user-friendly web applications that solve
+              real-world problems.
             </p>
             <p className="text-pretty">
-              Now I build full-stack web apps using the MERN stack — MongoDB, Express, React, and
-              Node.js. I care about writing code that's clean and easy to understand, not just code
-              that works. I like thinking through how things are built, not just making them look
-              good on the surface.
+              I spent years as an accountant, doing the same thing every single day — until I
+              realized that wasn't enough. I wanted something that kept changing, kept teaching me,
+              kept me curious. Web development gave me exactly that. Now I channel that same
+              curiosity into writing clean, efficient, scalable code.
             </p>
             <p className="text-pretty">
               When I'm not coding, you can find me exploring emerging technologies, brainstorming
