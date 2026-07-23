@@ -19,7 +19,7 @@ export function About({ resumeMailto }: AboutProps) {
         </div>
         <div className="md:order-1 md:col-span-8">
           <p className="text-pretty text-2xl font-extrabold leading-snug tracking-tight text-primary md:text-3xl">
-            A passionate MERN STACK DEVELOPER with a creative edge
+            A passionate MERN STACK DEVELOPER with a creative edge.
           </p>
           <div className="mt-8 space-y-3 text-base leading-relaxed text-muted-foreground md:text-lg">
             <p className="text-pretty">
