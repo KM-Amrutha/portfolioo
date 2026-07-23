@@ -8,7 +8,7 @@ export function About({ resumeMailto }: AboutProps) {
   return (
     <section id="about" className="border-t border-foreground/5 bg-background py-24">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 md:grid-cols-12">
-        <div className="md:order-1 md:col-span-4">
+        <div className="md:order-2 md:col-span-4">
           <span className="font-mono text-xs font-medium uppercase tracking-widest text-primary">
             / About
           </span>
@@ -18,11 +18,11 @@ export function About({ resumeMailto }: AboutProps) {
             </div>
           </div>
         </div>
-        <div className="md:order-2 md:col-span-8">
-          <p className="text-pretty text-2xl font-medium leading-snug tracking-tight text-foreground/90 md:text-3xl">
+        <div className="md:order-1 md:col-span-8">
+          <p className="text-pretty text-2xl font-extrabold leading-snug tracking-tight text-primary md:text-3xl">
             A passionate MERN STACK DEVELOPER with a creative edge
           </p>
-          <div className="mt-10 space-y-6 text-base leading-relaxed text-muted-foreground md:text-lg">
+          <div className="mt-8 space-y-3 text-base leading-relaxed text-muted-foreground md:text-lg">
             <p className="text-pretty">
               I spent years working as an accountant, doing the same thing every day. At some point
               I realized that wasn't enough for me — I wanted something that would challenge me,
