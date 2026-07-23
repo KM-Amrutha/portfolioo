@@ -1,4 +1,5 @@
 import { FileText } from "lucide-react";
+import profileImg from "../assets/profile.jpg";
 
 interface AboutProps {
   resumeMailto: string;
@@ -9,13 +10,11 @@ export function About({ resumeMailto }: AboutProps) {
     <section id="about" className="border-t border-foreground/5 bg-background py-24">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 md:grid-cols-12">
         <div className="md:order-2 md:col-span-4">
-          <span className="font-mono text-xs font-medium uppercase tracking-widest text-primary">
+          <span className="font-mono text-xs font-large uppercase tracking-widest text-primary">
             / About
           </span>
           <div className="mt-6 aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl border border-foreground/10 bg-foreground/5">
-            <div className="flex size-full items-center justify-center text-sm text-foreground/40">
-              Your photo here
-            </div>
+            <img src={profileImg} alt="Amrutha KM" className="h-full w-full object-cover" />
           </div>
         </div>
         <div className="md:order-1 md:col-span-8">
