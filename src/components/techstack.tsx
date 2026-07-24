@@ -1,26 +1,50 @@
 const TECH_MATRIX: { category: string; items: string[] }[] = [
-  { category: "Frontend", items: ["React", "TypeScript", "Next.js", "Tailwind", "Redux", "Vite"] },
-  { category: "Backend", items: ["Node.js", "Express", "NestJS", "GraphQL", "REST", "tRPC"] },
-  { category: "Data", items: ["MongoDB", "PostgreSQL", "Redis", "Prisma", "Mongoose", "SQL"] },
   {
-    category: "Platform",
-    items: ["Docker", "AWS", "GitHub Actions", "Nginx", "Vercel", "Cloudflare"],
+    category: "Languages",
+    items: ["JavaScript", "TypeScript", "HTML5", "CSS"],
+  },
+  {
+    category: "Frontend",
+    items: ["React", "Redux", "Tailwind CSS", "Vite", "Figma", "Prototyping", "Responsive Design"],
+  },
+  {
+    category: "Backend",
+    items: [
+      "Node.js",
+      "Express",
+      "EJS",
+      "JWT",
+      "REST APIs",
+      "Axios",
+      "Bcrypt",
+      "Nodemailer",
+      "OAuth",
+    ],
+  },
+  {
+    category: "Database",
+    items: ["MongoDB", "PostgreSQL", "Redis", "Firebase", "Cloudinary"],
+  },
+  {
+    category: "Platform & Tools",
+    items: ["Docker", "AWS", "Git", "GitHub Actions", "Nginx", "Vercel", "Postman"],
   },
 ];
 
-const TECH_STACK: { name: string; icon: string; color?: string }[] = [
+const TECH_STACK: { name: string; icon?: string; color?: string }[] = [
   { name: "React", icon: "devicon-react-original colored" },
   { name: "TypeScript", icon: "devicon-typescript-plain colored" },
   { name: "Node.js", icon: "devicon-nodejs-plain colored" },
   { name: "MongoDB", icon: "devicon-mongodb-plain colored" },
   { name: "PostgreSQL", icon: "devicon-postgresql-plain colored" },
-  { name: "Next.js", icon: "devicon-nextjs-plain" },
+  { name: "JavaScript", icon: "devicon-javascript-plain colored" },
   { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain colored" },
   { name: "Docker", icon: "devicon-docker-plain colored" },
   { name: "AWS", icon: "devicon-amazonwebservices-plain colored" },
-  { name: "GraphQL", icon: "devicon-graphql-plain colored" },
   { name: "Redis", icon: "devicon-redis-plain colored" },
   { name: "Git", icon: "devicon-git-plain colored" },
+  { name: "Vercel", icon: "devicon-vercel-plain colored" },
+  { name: "Many More.." },
 ];
 
 export function Techstack() {
@@ -41,7 +65,7 @@ export function Techstack() {
             <span className="font-mono text-xs text-foreground/30">v.2026</span>
           </div>
 
-          <div className="grid grid-cols-2 gap-x-6 gap-y-12 md:grid-cols-4 md:gap-x-8 md:divide-x md:divide-foreground/10">
+          <div className="grid grid-cols-2 gap-x-6 gap-y-12 md:grid-cols-5 md:gap-x-8 md:divide-x md:divide-foreground/10">
             {TECH_MATRIX.map((col) => (
               <div key={col.category} className="md:px-6 first:md:pl-0">
                 <div className="mb-6 font-mono text-xs font-medium uppercase tracking-widest text-primary">

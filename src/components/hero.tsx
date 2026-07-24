@@ -115,15 +115,20 @@ export function Hero({ githubUrl, linkedinUrl, contactEmail }: HeroProps) {
             <div key={i} className="flex items-center gap-16">
               {[
                 "TypeScript",
+                "JavaScript",
                 "React",
+                "Redux",
                 "Node.js",
                 "MongoDB",
                 "PostgreSQL",
                 "Docker",
                 "AWS",
-                "GraphQL",
+                "CI/CD",
+                "Vercel",
                 "Redis",
-                "Next.js",
+                "Firebase",
+                "Cloudinary",
+                "S3 Bucket",
               ].map((t) => (
                 <span key={t} className="flex items-center gap-16">
                   {t}
