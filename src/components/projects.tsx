@@ -14,10 +14,10 @@ const projects = [
     image: skylife,
     alt: "Confluence collaborative editor",
     description:
-      "SkyLife — a solo-built, production-grade flight booking platform.Supporting aricraft adding, flight search,real-time seat locking, Stripe payments, user/provider/admin dashboards, from reservation to refund.A fully automated booking lifecycle — architected with zero shortcuts.",
+      "SkyLife — a solo-built, production-grade flight booking platform. Supporting aircraft adding, flight search, real-time seat locking, Stripe payments, user/provider/admin dashboards, from reservation to refund. A fully automated booking lifecycle — architected with zero shortcuts.",
     tags: [
       "JWT",
-      "Oauth",
+      "OAuth",
       "Redis",
       "Redux",
       "TailwindCSS",
@@ -32,7 +32,7 @@ const projects = [
       "CI/CD",
     ],
     repoUrl: "https://github.com/KM-Amrutha/Skylife-client",
-    Url: "https://www.skylife.help",
+    url: "https://www.skylife.help",
   },
   {
     number: "02",
@@ -40,7 +40,7 @@ const projects = [
     image: sportzzone,
     alt: "Meridian commerce analytics",
     description:
-      "A full-stack e-commerce platform exclusivly for cricket products with secure user authentication, product browsing, shopping cart,wishlist, order placement,COD, and Razorpay payment integration. It also includes an admin panel for managing products, orders, and users, enabling complete control over the platform.",
+      "A full-stack e-commerce platform exclusively for cricket products with secure user authentication, product browsing, shopping cart, wishlist, order placement, COD, and Razorpay payment integration. It also includes an admin panel for managing products, orders, and users, enabling complete control over the platform.",
     tags: ["JavaScript", "Node.js", "Express", "EJS", "RazorPay", "MongoDB", "Nodemailer"],
     repoUrl: "https://github.com/KM-Amrutha/Sportzzone",
     url: "https://www.sportzzone.help",
@@ -52,7 +52,7 @@ const projects = [
     alt: "Personal portfolio website",
     description:
       "A full-stack user management system with secure authentication, user registration, and profile management. Includes an admin dashboard for viewing, editing, and managing all users with role-based access control to ensure secure and organized user operations.",
-    tags: ["Tailwind", "JWT", "Redux", "React", "Javascript", "Typescript"],
+    tags: ["Tailwind", "JWT", "Redux", "React", "JavaScript", "TypeScript"],
     repoUrl: "https://github.com/KM-Amrutha/REDUX--UserManagementSystem",
   },
 ];
@@ -111,15 +111,29 @@ export function Projects({ githubUrl }: ProjectsProps) {
                   ))}
                 </div>
 
-                <a
-                  href={p.repoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-flex w-fit shrink-0 items-center gap-1.5 self-start border-b border-transparent pb-0.5 text-xs font-medium text-foreground/70 transition-colors hover:border-primary hover:text-primary"
-                >
-                  <Github className="size-3.5" />
-                  View code
-                </a>
+                <div className="mt-3 flex shrink-0 flex-wrap gap-x-4 gap-y-1">
+                  <a
+                    href={p.repoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex w-fit items-center gap-1.5 self-start border-b border-transparent pb-0.5 text-xs font-medium text-foreground/70 transition-colors hover:border-primary hover:text-primary"
+                  >
+                    <Github className="size-3.5" />
+                    View code
+                  </a>
+
+                  {p.url && (
+                    <a
+                      href={p.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex w-fit items-center gap-1.5 self-start border-b border-transparent pb-0.5 text-xs font-medium text-foreground/70 transition-colors hover:border-primary hover:text-primary"
+                    >
+                      <ExternalLink className="size-3.5" />
+                      Live site
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}
